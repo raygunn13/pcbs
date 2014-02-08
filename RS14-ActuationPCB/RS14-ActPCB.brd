@@ -60,9 +60,9 @@
 <board>
 <plain>
 <wire x1="6.985" y1="12.7" x2="78.74" y2="12.7" width="0" layer="20"/>
-<wire x1="78.74" y1="12.7" x2="78.74" y2="84.328" width="0" layer="20"/>
-<wire x1="78.74" y1="84.328" x2="6.985" y2="84.328" width="0" layer="20"/>
-<wire x1="6.985" y1="84.328" x2="6.985" y2="12.7" width="0" layer="20"/>
+<wire x1="78.74" y1="12.7" x2="78.74" y2="84.455" width="0" layer="20"/>
+<wire x1="78.74" y1="84.455" x2="6.985" y2="84.455" width="0" layer="20"/>
+<wire x1="6.985" y1="84.455" x2="6.985" y2="12.7" width="0" layer="20"/>
 <circle x="74.295" y="17.653" radius="5.588" width="0.3048" layer="21"/>
 <circle x="74.295" y="62.103" radius="5.588" width="0.3048" layer="21"/>
 <hole x="74.295" y="17.653" drill="3.175"/>
@@ -2150,9 +2150,9 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="21.59" y="60.96"/>
 <vertex x="69.85" y="60.96"/>
 <vertex x="69.85" y="66.675"/>
-<vertex x="80.645" y="66.675"/>
-<vertex x="80.645" y="83.82"/>
-<vertex x="21.59" y="83.82"/>
+<vertex x="78.74" y="66.675"/>
+<vertex x="78.74" y="84.455"/>
+<vertex x="21.59" y="84.455"/>
 </polygon>
 <polygon width="0.3048" layer="16">
 <vertex x="69.85" y="21.59"/>
@@ -2558,6 +2558,8 @@ Please make sure your boards conform to these design rules.</description>
 <errors>
 <approved hash="13,17,144b1441d8f4d8fe"/>
 <approved hash="13,17,45ef45e58a188a12"/>
+<approved hash="13,17,af03af0a6a5d6a54"/>
+<approved hash="13,17,dd67dd6e19c119c8"/>
 <approved hash="13,17,3aa83ab3fe1cfe07"/>
 <approved hash="13,17,99e199fb9d449d5e"/>
 </errors>
