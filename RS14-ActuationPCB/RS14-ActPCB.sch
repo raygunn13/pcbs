@@ -7916,64 +7916,12 @@ Source: www.kingbright.com</description>
 </library>
 <library name="rs-molex-sherlock">
 <packages>
-<package name="35362-02**">
-<pad name="P2" x="0" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
-<pad name="P1" x="-2" y="0" drill="0.8" diameter="1.5" shape="square" rot="R90"/>
-<text x="-5.4" y="-2" size="1" layer="21" font="vector" rot="R90">&gt;NAME</text>
-<circle x="-3" y="-3.4" radius="0.35" width="0.127" layer="21"/>
-<rectangle x1="-2.75" y1="0.75" x2="-1.25" y2="1" layer="18"/>
-<rectangle x1="-2.75" y1="-1" x2="-1.25" y2="-0.75" layer="18"/>
-<wire x1="-3.65" y1="3" x2="1.65" y2="3" width="0.127" layer="21"/>
-<wire x1="1.65" y1="3" x2="1.65" y2="0.85" width="0.127" layer="21"/>
-<wire x1="1.65" y1="0.85" x2="2.85" y2="-0.35" width="0.127" layer="21"/>
-<wire x1="2.85" y1="-0.35" x2="2.85" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="2.85" y1="-2.6" x2="0.3" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="0.3" y1="-2.6" x2="0.3" y2="-2" width="0.127" layer="21"/>
-<wire x1="0.3" y1="-2" x2="-2.3" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="-2" x2="-2.3" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="-2.6" x2="-4.85" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-4.85" y1="-2.6" x2="-4.85" y2="-0.35" width="0.127" layer="21"/>
-<wire x1="-4.85" y1="-0.35" x2="-3.65" y2="0.85" width="0.127" layer="21"/>
-<wire x1="-3.65" y1="0.85" x2="-3.65" y2="3" width="0.127" layer="21"/>
-<wire x1="2.85" y1="-4.15" x2="-4.85" y2="-4.15" width="0.05" layer="21" style="shortdash"/>
-<wire x1="-4.85" y1="-4.15" x2="-4.85" y2="-2.6" width="0.05" layer="21" style="shortdash"/>
-<wire x1="2.85" y1="-4.15" x2="2.85" y2="-2.6" width="0.05" layer="21" style="dashdot"/>
-<wire x1="-0.4" y1="-4.16" x2="-1.6" y2="-4.16" width="0.2" layer="21"/>
-</package>
-<package name="35363-026*">
-<pad name="P2" x="1" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
-<pad name="P1" x="-1" y="0" drill="0.8" diameter="1.5" shape="square" rot="R90"/>
-<text x="-1.25" y="-3" size="1" layer="21" font="vector">&gt;NAME</text>
-<circle x="-2" y="-3" radius="0.35" width="0.127" layer="21"/>
-<rectangle x1="-1.75" y1="0.75" x2="-0.25" y2="1" layer="18"/>
-<rectangle x1="-1.75" y1="-1" x2="-0.25" y2="-0.75" layer="18"/>
-<wire x1="-2" y1="0" x2="-2" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-2" y1="-1.75" x2="-3" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-3" y1="-1.75" x2="-3" y2="0" width="0.127" layer="21"/>
-<wire x1="-3" y1="0" x2="-3.9" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.9" y1="0" x2="-3.9" y2="8.5" width="0.127" layer="21"/>
-<wire x1="-3.9" y1="8.5" x2="-1.25" y2="8.5" width="0.127" layer="21"/>
-<wire x1="-1.25" y1="8.5" x2="-1" y2="8.25" width="0.127" layer="21"/>
-<wire x1="-1" y1="8.25" x2="-1" y2="7.75" width="0.127" layer="21"/>
-<wire x1="-1" y1="7.75" x2="1" y2="7.75" width="0.127" layer="21"/>
-<wire x1="1" y1="7.75" x2="1" y2="8.25" width="0.127" layer="21"/>
-<wire x1="1" y1="8.25" x2="1.25" y2="8.5" width="0.127" layer="21"/>
-<wire x1="1.25" y1="8.5" x2="3.9" y2="8.5" width="0.127" layer="21"/>
-<wire x1="3.9" y1="8.5" x2="3.9" y2="0" width="0.127" layer="21"/>
-<wire x1="3.9" y1="0" x2="3" y2="0" width="0.127" layer="21"/>
-<wire x1="3" y1="0" x2="3" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="3" y1="-1.75" x2="2" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="2" y1="-1.75" x2="2" y2="0" width="0.127" layer="21"/>
-<wire x1="2" y1="0" x2="-2" y2="0" width="0.127" layer="21"/>
-</package>
 <package name="35362-03**">
 <pad name="P3" x="2" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
 <pad name="P2" x="0" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
-<pad name="P1" x="-2" y="0" drill="0.8" diameter="1.5" shape="square" rot="R90"/>
+<pad name="P1" x="-2" y="0" drill="0.8" diameter="1.5" shape="square" rot="R90" first="yes"/>
 <text x="-2" y="-3.6" size="1" layer="21" font="vector">&gt;NAME</text>
 <circle x="-3" y="-3.4" radius="0.35" width="0.127" layer="21"/>
-<rectangle x1="-2.75" y1="0.75" x2="-1.25" y2="1" layer="18"/>
-<rectangle x1="-2.75" y1="-1" x2="-1.25" y2="-0.75" layer="18"/>
 <wire x1="-3.65" y1="3" x2="3.65" y2="3" width="0.127" layer="21"/>
 <wire x1="3.65" y1="3" x2="3.65" y2="0.85" width="0.127" layer="21"/>
 <wire x1="3.65" y1="0.85" x2="4.85" y2="-0.35" width="0.127" layer="21"/>
@@ -7990,6 +7938,32 @@ Source: www.kingbright.com</description>
 <wire x1="-4.85" y1="-4.15" x2="-4.85" y2="-2.6" width="0.05" layer="21" style="shortdash"/>
 <wire x1="4.85" y1="-4.15" x2="4.85" y2="-2.6" width="0.05" layer="21" style="dashdot"/>
 <wire x1="0.6" y1="-4.16" x2="-0.6" y2="-4.16" width="0.2" layer="21"/>
+<rectangle x1="-2.75" y1="-1" x2="-1.25" y2="1" layer="17"/>
+<rectangle x1="-2.85" y1="-1.1" x2="-1.15" y2="1.1" layer="29"/>
+<rectangle x1="-2.85" y1="-1.1" x2="-1.15" y2="1.1" layer="30"/>
+</package>
+<package name="35362-04**">
+<pad name="P4" x="3" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
+<pad name="P3" x="1" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
+<pad name="P2" x="-1" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
+<pad name="P1" x="-3" y="0" drill="0.8" diameter="1.5" shape="square" rot="R90"/>
+<text x="-2.5" y="-3.6" size="1" layer="21" font="vector">&gt;NAME</text>
+<circle x="-4" y="-3.4" radius="0.35" width="0.127" layer="21"/>
+<wire x1="-5.15" y1="3" x2="5.15" y2="3" width="0.127" layer="21"/>
+<wire x1="5.15" y1="3" x2="5.15" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="5.15" y1="-2.6" x2="3.3" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="3.3" y1="-2.6" x2="3.3" y2="-2" width="0.127" layer="21"/>
+<wire x1="3.3" y1="-2" x2="-3.3" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-2" x2="-3.3" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-2.6" x2="-5.15" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-5.15" y1="-2.6" x2="-5.15" y2="3" width="0.127" layer="21"/>
+<wire x1="5.15" y1="-4.15" x2="-5.15" y2="-4.15" width="0.05" layer="21" style="shortdash"/>
+<wire x1="-5.15" y1="-4.15" x2="-5.15" y2="-2.6" width="0.05" layer="21" style="shortdash"/>
+<wire x1="5.15" y1="-4.15" x2="5.15" y2="-2.6" width="0.05" layer="21" style="dashdot"/>
+<wire x1="0.6" y1="-4.16" x2="-0.6" y2="-4.16" width="0.2" layer="21"/>
+<rectangle x1="-3.75" y1="-1" x2="-2.25" y2="1" layer="17"/>
+<rectangle x1="-3.85" y1="-1.1" x2="-2.15" y2="1.1" layer="30"/>
+<rectangle x1="-3.85" y1="-1.1" x2="-2.15" y2="1.1" layer="29"/>
 </package>
 <package name="35363-036*">
 <pad name="P3" x="2" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
@@ -7997,8 +7971,6 @@ Source: www.kingbright.com</description>
 <pad name="P1" x="-2" y="0" drill="0.8" diameter="1.5" shape="square" rot="R90"/>
 <text x="-2.25" y="-3" size="1" layer="21" font="vector">&gt;NAME</text>
 <circle x="-3" y="-3" radius="0.35" width="0.127" layer="21"/>
-<rectangle x1="-2.75" y1="0.75" x2="-1.25" y2="1" layer="18"/>
-<rectangle x1="-2.75" y1="-1" x2="-1.25" y2="-0.75" layer="18"/>
 <wire x1="4.9" y1="0" x2="4" y2="0" width="0.127" layer="21"/>
 <wire x1="3" y1="0" x2="-3" y2="0" width="0.127" layer="21"/>
 <wire x1="-4" y1="0" x2="-4.9" y2="0" width="0.127" layer="21"/>
@@ -8017,28 +7989,9 @@ Source: www.kingbright.com</description>
 <wire x1="3" y1="0" x2="3" y2="-1.75" width="0.127" layer="21"/>
 <wire x1="3" y1="-1.75" x2="4" y2="-1.75" width="0.127" layer="21"/>
 <wire x1="4" y1="-1.75" x2="4" y2="0" width="0.127" layer="21"/>
-</package>
-<package name="35362-04**">
-<pad name="P4" x="3" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
-<pad name="P3" x="1" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
-<pad name="P2" x="-1" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
-<pad name="P1" x="-3" y="0" drill="0.8" diameter="1.5" shape="square" rot="R90"/>
-<text x="-2.5" y="-3.6" size="1" layer="21" font="vector">&gt;NAME</text>
-<circle x="-4" y="-3.4" radius="0.35" width="0.127" layer="21"/>
-<rectangle x1="-3.75" y1="0.75" x2="-2.25" y2="1" layer="18"/>
-<rectangle x1="-3.75" y1="-1" x2="-2.25" y2="-0.75" layer="18"/>
-<wire x1="-5.15" y1="3" x2="5.15" y2="3" width="0.127" layer="21"/>
-<wire x1="5.15" y1="3" x2="5.15" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="5.15" y1="-2.6" x2="3.3" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="3.3" y1="-2.6" x2="3.3" y2="-2" width="0.127" layer="21"/>
-<wire x1="3.3" y1="-2" x2="-3.3" y2="-2" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="-2" x2="-3.3" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="-2.6" x2="-5.15" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-5.15" y1="-2.6" x2="-5.15" y2="3" width="0.127" layer="21"/>
-<wire x1="5.15" y1="-4.15" x2="-5.15" y2="-4.15" width="0.05" layer="21" style="shortdash"/>
-<wire x1="-5.15" y1="-4.15" x2="-5.15" y2="-2.6" width="0.05" layer="21" style="shortdash"/>
-<wire x1="5.15" y1="-4.15" x2="5.15" y2="-2.6" width="0.05" layer="21" style="dashdot"/>
-<wire x1="0.6" y1="-4.16" x2="-0.6" y2="-4.16" width="0.2" layer="21"/>
+<rectangle x1="-2.75" y1="-1" x2="-1.25" y2="1" layer="17"/>
+<rectangle x1="-2.85" y1="-1.1" x2="-1.15" y2="1.1" layer="30"/>
+<rectangle x1="-2.85" y1="-1.1" x2="-1.15" y2="1.1" layer="29"/>
 </package>
 <package name="35363-046*">
 <pad name="P3" x="1" y="0" drill="0.8" diameter="1.5" shape="long" rot="R90"/>
@@ -8047,8 +8000,6 @@ Source: www.kingbright.com</description>
 <pad name="P1" x="-3" y="0" drill="0.8" diameter="1.5" shape="square" rot="R90"/>
 <text x="-2.5" y="-3" size="1" layer="21" font="vector">&gt;NAME</text>
 <circle x="-4" y="-3" radius="0.35" width="0.127" layer="21"/>
-<rectangle x1="-3.75" y1="0.75" x2="-2.25" y2="1" layer="18"/>
-<rectangle x1="-3.75" y1="-1" x2="-2.25" y2="-0.75" layer="18"/>
 <wire x1="5" y1="8.5" x2="3" y2="8.5" width="0.127" layer="21"/>
 <wire x1="3" y1="8.5" x2="2.5" y2="8" width="0.127" layer="21"/>
 <wire x1="2.5" y1="8" x2="2.5" y2="7.5" width="0.127" layer="21"/>
@@ -8063,21 +8014,12 @@ Source: www.kingbright.com</description>
 <wire x1="4" y1="0" x2="4" y2="-2" width="0.127" layer="21"/>
 <wire x1="4" y1="-2" x2="5" y2="-2" width="0.127" layer="21"/>
 <wire x1="5" y1="-2" x2="5" y2="8.5" width="0.127" layer="21"/>
+<rectangle x1="-3.75" y1="-1" x2="-2.25" y2="1" layer="17"/>
+<rectangle x1="-3.85" y1="-1.1" x2="-2.15" y2="1.1" layer="30"/>
+<rectangle x1="-3.85" y1="-1.1" x2="-2.15" y2="1.1" layer="29"/>
 </package>
 </packages>
 <symbols>
-<symbol name="HDR-2PIN">
-<pin name="P1" x="5.08" y="2.54" length="middle" rot="R180"/>
-<pin name="P2" x="5.08" y="0" length="middle" rot="R180"/>
-<wire x1="-0.508" y1="3.048" x2="-0.508" y2="2.032" width="0.254" layer="94" curve="-180"/>
-<wire x1="-0.508" y1="0.508" x2="-0.508" y2="-0.508" width="0.254" layer="94" curve="-180"/>
-<wire x1="1.016" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="1.016" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.016" y1="-2.54" x2="1.016" y2="5.08" width="0.254" layer="94"/>
-<text x="-7.112" y="5.588" size="1.27" layer="96">&gt;NAME</text>
-<text x="-9.398" y="5.08" size="1.27" layer="96" rot="R270">&gt;VALUE</text>
-</symbol>
 <symbol name="HDR-3PIN">
 <pin name="P1" x="5.08" y="2.54" length="middle" rot="R180"/>
 <pin name="P2" x="5.08" y="0" length="middle" rot="R180"/>
@@ -8110,40 +8052,6 @@ Source: www.kingbright.com</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SHERLOCK-2P">
-<description>&lt;u&gt;2-pin Molex &lt;em&gt;Sherlock&lt;sup&gt;TM&lt;/sup&gt;&lt;/em&gt; connector system&lt;/u&gt;&lt;br/&gt;
-&lt;strong&gt;Verticle&lt;/strong&gt; 35362-02**&lt;br/&gt;
-&lt;strong&gt;Right Angle&lt;/strong&gt; 35363-026**&lt;br/&gt;
-&lt;br/&gt;
-&lt;u&gt;Mates with:&lt;/u&gt;&lt;br/&gt;
-35507-0200 header&lt;br/&gt;
-50212-8100 pins&lt;br/&gt;&lt;br/&gt;
-
-Use 63819-0500 crimper, and 57105-6000 pin extraction tool.</description>
-<gates>
-<gate name="G$1" symbol="HDR-2PIN" x="3.556" y="-1.27"/>
-</gates>
-<devices>
-<device name="VERTICAL" package="35362-02**">
-<connects>
-<connect gate="G$1" pin="P1" pad="P1"/>
-<connect gate="G$1" pin="P2" pad="P2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="RIGHT-ANGLE" package="35363-026*">
-<connects>
-<connect gate="G$1" pin="P1" pad="P1"/>
-<connect gate="G$1" pin="P2" pad="P2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SHERLOCK-3P">
 <description>&lt;u&gt;3-pin Molex &lt;em&gt;Sherlock&lt;sup&gt;TM&lt;/sup&gt;&lt;/em&gt; connector system&lt;/u&gt;&lt;br/&gt;
 &lt;strong&gt;Verticle&lt;/strong&gt; 35362-03**&lt;br/&gt;
@@ -8234,8 +8142,8 @@ Use 63819-0500 crimper, and 57105-6000 pin extraction tool.</description>
 <part name="C1" library="rcl" deviceset="C-US" device="025-025X050" value="0.1u"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="0204/7" value="100"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="0204/7" value="10K"/>
-<part name="100" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="680" library="rcl" deviceset="R-US_" device="0204/7"/>
+<part name="R3V3" library="rcl" deviceset="R-US_" device="0204/7" value="100"/>
+<part name="R12V" library="rcl" deviceset="R-US_" device="0204/7" value="680"/>
 <part name="IC1" library="st-microelectronics" deviceset="L293D" device=""/>
 <part name="IC2" library="st-microelectronics" deviceset="L293D" device=""/>
 <part name="PI12" library="led" deviceset="LED" device="5MM" value="YLW"/>
@@ -8259,7 +8167,7 @@ Use 63819-0500 crimper, and 57105-6000 pin extraction tool.</description>
 <part name="PN3" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="PN4" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="PROG" library="rs-extra-cons" deviceset="HDR-1X6-OFFSET" device=""/>
-<part name="I2C" library="rs-molex-sherlock" deviceset="SHERLOCK-2P" device="VERTICAL"/>
+<part name="I2C" library="rs-molex-sherlock" deviceset="SHERLOCK-3P" device="VERTICAL"/>
 <part name="UART" library="rs-molex-sherlock" deviceset="SHERLOCK-3P" device="VERTICAL"/>
 <part name="STEP1" library="rs-molex-sherlock" deviceset="SHERLOCK-4P" device="VERTICAL"/>
 <part name="STEP2" library="rs-molex-sherlock" deviceset="SHERLOCK-4P" device="VERTICAL"/>
@@ -8286,8 +8194,8 @@ Use 63819-0500 crimper, and 57105-6000 pin extraction tool.</description>
 <instance part="C1" gate="G$1" x="25.4" y="73.66"/>
 <instance part="R1" gate="G$1" x="35.56" y="78.74"/>
 <instance part="R2" gate="G$1" x="25.4" y="86.36" rot="R90"/>
-<instance part="100" gate="G$1" x="27.94" y="40.64" rot="R90"/>
-<instance part="680" gate="G$1" x="38.1" y="40.64" rot="R90"/>
+<instance part="R3V3" gate="G$1" x="27.94" y="40.64" rot="R90"/>
+<instance part="R12V" gate="G$1" x="38.1" y="40.64" rot="R90"/>
 <instance part="IC1" gate="G$1" x="243.84" y="68.58"/>
 <instance part="IC2" gate="G$1" x="243.84" y="-2.54"/>
 <instance part="PI12" gate="G$1" x="38.1" y="30.48"/>
@@ -8322,7 +8230,7 @@ Use 63819-0500 crimper, and 57105-6000 pin extraction tool.</description>
 <instance part="PN4" gate="-1" x="137.16" y="-7.62"/>
 <instance part="PN4" gate="-2" x="137.16" y="-10.16"/>
 <instance part="PROG" gate="G$1" x="7.62" y="60.96" rot="MR0"/>
-<instance part="I2C" gate="G$1" x="139.7" y="93.98" rot="MR0"/>
+<instance part="I2C" gate="G$1" x="142.24" y="96.52" rot="MR0"/>
 <instance part="UART" gate="G$1" x="5.08" y="88.9" rot="MR0"/>
 <instance part="STEP1" gate="G$1" x="304.8" y="73.66" rot="MR0"/>
 <instance part="STEP2" gate="G$1" x="304.8" y="2.54" rot="MR0"/>
@@ -8519,7 +8427,7 @@ Use 63819-0500 crimper, and 57105-6000 pin extraction tool.</description>
 <label x="144.78" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="100" gate="G$1" pin="2"/>
+<pinref part="R3V3" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="45.72" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
 <label x="27.94" y="45.72" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -8559,6 +8467,10 @@ Use 63819-0500 crimper, and 57105-6000 pin extraction tool.</description>
 <wire x1="124.46" y1="111.76" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
 <junction x="124.46" y="114.3"/>
 <label x="119.38" y="114.3" size="1.778" layer="95"/>
+<pinref part="I2C" gate="G$1" pin="P1"/>
+<wire x1="137.16" y1="99.06" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="114.3" x2="132.08" y2="114.3" width="0.1524" layer="91"/>
+<junction x="132.08" y="114.3"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -8571,14 +8483,14 @@ Use 63819-0500 crimper, and 57105-6000 pin extraction tool.</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="680" gate="G$1" pin="1"/>
+<pinref part="R12V" gate="G$1" pin="1"/>
 <pinref part="PI12" gate="G$1" pin="A"/>
 <wire x1="38.1" y1="35.56" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="100" gate="G$1" pin="1"/>
+<pinref part="R3V3" gate="G$1" pin="1"/>
 <pinref part="PI3V3" gate="G$1" pin="A"/>
 <wire x1="27.94" y1="35.56" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
 </segment>
@@ -8640,7 +8552,7 @@ Use 63819-0500 crimper, and 57105-6000 pin extraction tool.</description>
 <label x="261.62" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="680" gate="G$1" pin="2"/>
+<pinref part="R12V" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="45.72" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
 <label x="38.1" y="45.72" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -9068,12 +8980,12 @@ Use 63819-0500 crimper, and 57105-6000 pin extraction tool.</description>
 <label x="157.48" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="96.52" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
 <label x="116.84" y="96.52" size="1.778" layer="95"/>
-<pinref part="I2C" gate="G$1" pin="P1"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="101.6" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="I2C" gate="G$1" pin="P2"/>
+<wire x1="124.46" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
 <junction x="124.46" y="96.52"/>
 </segment>
 </net>
@@ -9084,12 +8996,12 @@ Use 63819-0500 crimper, and 57105-6000 pin extraction tool.</description>
 <label x="157.48" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="93.98" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
 <label x="116.84" y="93.98" size="1.778" layer="95"/>
-<pinref part="I2C" gate="G$1" pin="P2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="93.98" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="101.6" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="I2C" gate="G$1" pin="P3"/>
+<wire x1="137.16" y1="93.98" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
 <junction x="132.08" y="93.98"/>
 </segment>
 </net>
