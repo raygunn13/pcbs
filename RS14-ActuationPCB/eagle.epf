@@ -336,12 +336,7 @@ UsedLibrary="/Applications/EAGLE-6.5.0/lbr/wafer-scale-psd.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/wirepad.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/xicor.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/xilinx-virtex-v5.lbr"
-UsedLibrary="/Applications/EAGLE-6.5.0/lbr/xilinx-xc18v.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/xilinx-xc9.lbr"
-UsedLibrary="/Applications/EAGLE-6.5.0/lbr/xilinx-xcv.lbr"
-UsedLibrary="/Applications/EAGLE-6.5.0/lbr/zetex.lbr"
-UsedLibrary="/Applications/EAGLE-6.5.0/lbr/zilog.lbr"
-UsedLibrary="/Users/luke/Documents/eagle/lbr/Digilent/Mechanical.lbr"
 UsedLibrary="/Users/luke/Documents/eagle/lbr/Element14/FTDI_By_element14_Batch_1.lbr"
 UsedLibrary="/Users/luke/Documents/eagle/lbr/Element14/Microchip_By_element14_Batch_1.lbr"
 UsedLibrary="/Users/luke/Documents/eagle/lbr/Element14/Molex_By_element14_Batch_1.lbr"
@@ -352,7 +347,7 @@ UsedLibrary="/Users/luke/Documents/eagle/lbr/rs-molex-sherlock.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-1842 180 -215 1099"
+Loc="45 130 1536 1049"
 State=2
 Number=0
 
