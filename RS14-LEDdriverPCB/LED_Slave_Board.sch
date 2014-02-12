@@ -8136,7 +8136,7 @@ at 30/07/2012 11:22:31</description>
 <parts>
 <part name="R1" library="rcl" deviceset="R-US_" device="0204/7" value="100"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="0204/7" value="10K"/>
-<part name="C1" library="rcl" deviceset="C-US" device="050-024X044" value="22uF"/>
+<part name="C1" library="rcl" deviceset="C-US" device="050-045X075" value="22uF"/>
 <part name="C3" library="rcl" deviceset="C-US" device="025-040X050" value="0.1uF">
 <attribute name="DPN" value="445-8421-ND"/>
 <attribute name="MFN" value="FK18X7R1E104K"/>
@@ -8148,11 +8148,11 @@ at 30/07/2012 11:22:31</description>
 <part name="JP5" library="rs-molex-sherlock" deviceset="SHERLOCK-4P" device="VERTICAL"/>
 <part name="JP4" library="rs-molex-sherlock" deviceset="SHERLOCK-4P" device="VERTICAL"/>
 <part name="JP6" library="con-molex" deviceset="22-23-2021" device=""/>
-<part name="C4" library="rcl" deviceset="C-US" device="050-024X044" value="22uF"/>
+<part name="C4" library="rcl" deviceset="C-US" device="050-045X075" value="22uF"/>
 <part name="JP7" library="con-molex" deviceset="22-23-2021" device=""/>
-<part name="C5" library="rcl" deviceset="C-US" device="050-024X044" value="22uF"/>
-<part name="C7" library="rcl" deviceset="C-US" device="050-024X044" value="22uF"/>
-<part name="C8" library="rcl" deviceset="C-US" device="050-024X044" value="22uF"/>
+<part name="C5" library="rcl" deviceset="C-US" device="050-045X075" value="22uF"/>
+<part name="C7" library="rcl" deviceset="C-US" device="050-045X075" value="22uF"/>
+<part name="C8" library="rcl" deviceset="C-US" device="050-045X075" value="22uF"/>
 <part name="C2" library="rcl" deviceset="C-US" device="025-024X044" value="1uF"/>
 <part name="JP10" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="JP11" library="pinhead" deviceset="PINHD-1X2" device=""/>
