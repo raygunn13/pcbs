@@ -7876,8 +7876,8 @@ Source: www.kingbright.com</description>
 <part name="C1" library="rcl" deviceset="C-US" device="025-025X050" value="1u"/>
 <part name="R7" library="rcl" deviceset="R-US_" device="0204/7" value="10K"/>
 <part name="R8" library="rcl" deviceset="R-US_" device="0204/7" value="10K"/>
-<part name="LLATCH" library="led" deviceset="LED" device="3MM"/>
-<part name="LRELAY" library="led" deviceset="LED" device="3MM"/>
+<part name="LLAT" library="led" deviceset="LED" device="3MM"/>
+<part name="LRLY" library="led" deviceset="LED" device="3MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -7886,9 +7886,9 @@ Source: www.kingbright.com</description>
 <text x="99.06" y="12.7" size="1.778" layer="97">Relay must fire on less
 than switch current minus
 circuit loading.</text>
-<wire x1="96.52" y1="22.86" x2="132.08" y2="22.86" width="0.4064" layer="97"/>
-<wire x1="132.08" y1="22.86" x2="132.08" y2="10.16" width="0.4064" layer="97"/>
-<wire x1="132.08" y1="10.16" x2="96.52" y2="10.16" width="0.4064" layer="97"/>
+<wire x1="96.52" y1="22.86" x2="139.7" y2="22.86" width="0.4064" layer="97"/>
+<wire x1="139.7" y1="22.86" x2="139.7" y2="10.16" width="0.4064" layer="97"/>
+<wire x1="139.7" y1="10.16" x2="96.52" y2="10.16" width="0.4064" layer="97"/>
 <wire x1="96.52" y1="10.16" x2="96.52" y2="22.86" width="0.4064" layer="97"/>
 </plain>
 <instances>
@@ -7917,8 +7917,8 @@ circuit loading.</text>
 <instance part="C1" gate="G$1" x="99.06" y="60.96"/>
 <instance part="R7" gate="G$1" x="114.3" y="66.04" rot="R90"/>
 <instance part="R8" gate="G$1" x="127" y="66.04" rot="R90"/>
-<instance part="LLATCH" gate="G$1" x="114.3" y="55.88"/>
-<instance part="LRELAY" gate="G$1" x="127" y="55.88"/>
+<instance part="LLAT" gate="G$1" x="114.3" y="55.88"/>
+<instance part="LRLY" gate="G$1" x="127" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -7950,7 +7950,7 @@ circuit loading.</text>
 <label x="99.06" y="50.8" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="LLATCH" gate="G$1" pin="C"/>
+<pinref part="LLAT" gate="G$1" pin="C"/>
 <wire x1="114.3" y1="50.8" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
 <label x="114.3" y="43.18" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -7977,6 +7977,11 @@ circuit loading.</text>
 <wire x1="78.74" y1="0" x2="71.12" y2="0" width="0.1524" layer="91"/>
 <junction x="78.74" y="0"/>
 <label x="71.12" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OFF" gate="G$1" pin="P2"/>
+<wire x1="68.58" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
+<label x="71.12" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -8076,7 +8081,7 @@ circuit loading.</text>
 <label x="93.98" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LRELAY" gate="G$1" pin="C"/>
+<pinref part="LRLY" gate="G$1" pin="C"/>
 <wire x1="127" y1="50.8" x2="127" y2="43.18" width="0.1524" layer="91"/>
 <label x="127" y="43.18" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -8090,14 +8095,14 @@ circuit loading.</text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="LLATCH" gate="G$1" pin="A"/>
+<pinref part="LLAT" gate="G$1" pin="A"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="58.42" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="LRELAY" gate="G$1" pin="A"/>
+<pinref part="LRLY" gate="G$1" pin="A"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="127" y1="58.42" x2="127" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -8106,12 +8111,6 @@ circuit loading.</text>
 <segment>
 <pinref part="POW" gate="-2" pin="S"/>
 <wire x1="73.66" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="OFF" gate="G$1" pin="P2"/>
-<wire x1="68.58" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
